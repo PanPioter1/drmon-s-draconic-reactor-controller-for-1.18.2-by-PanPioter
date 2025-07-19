@@ -51,7 +51,7 @@ if reactor == null then
 end
 
 if inputfluxgate == null then
-	error("No valid flux gate was found")
+	error("No valid flow gate was found")
 end
 
 monX, monY = monitor.getSize()
