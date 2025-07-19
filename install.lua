@@ -2,8 +2,8 @@
 --
 --
 
-local libURL = "https://github.com/PanPioter1/drmon-s-draconic-reactor-controller-for-1.18.2-by-PanPioter/blob/d8681c8e0a097fcd0f8d9d7c5c6b42a356161d87/lib/f.lua"
-local startupURL = "https://github.com/PanPioter1/drmon-s-draconic-reactor-controller-for-1.18.2-by-PanPioter/blob/d8681c8e0a097fcd0f8d9d7c5c6b42a356161d87/mainSctipt.lua"
+local libURL = "https://raw.githubusercontent.com/PanPioter1/drmon-s-draconic-reactor-controller-for-1.18.2-by-PanPioter/main/lib/f.lua"
+local startupURL = "https://raw.githubusercontent.com/PanPioter1/drmon-s-draconic-reactor-controller-for-1.18.2-by-PanPioter/main/mainSctipt.lua"
 local lib, startup
 local libFile, startupFile
 
