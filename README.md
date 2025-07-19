@@ -1,7 +1,8 @@
+# PanPioter
 
-![](examples/2.jpg)
-> *status*: currently stable, writing documentation
+READ THIS FIRST
 
+yes, the code is nearly 1:1 same as drmon's because I have no idea how to code in LUA. this readme is also coppied but with slight changes. the tutorial made by the mindcrafter still should be working but you have to copy a different pastebin code that's from me, edited to work on 1.18.2
 
 # drmon
 monitor and failsafe automation for your draconic reactor
@@ -64,6 +65,3 @@ you can find a very well made youtube tutorial on how to set this up [here](http
 > install
 > startup
 ```
-
-### known issues
-* there is a problem with **skyfactory 2.5** and **pastebin**, see workarounds [here](https://github.com/acidjazz/drmon/issues/9#issuecomment-277910288)
