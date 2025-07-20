@@ -4,6 +4,10 @@ READ THIS FIRST
 
 yes, the code is nearly 1:1 same as drmon's because I have no idea how to code in LUA. this readme is also coppied but with slight changes. the tutorial made by the mindcrafter still should be working but you have to copy a different pastebin code that's from me, edited to work on 1.18.2
 
+WARNING
+
+while the menu shows up and you are able to manage the flux gates, for unknown reasons auto mode isn't working. for now, use this only if you understand how the reactor works and know how to properly manage input and output of power or it will go kaboom real fast
+
 # drmon
 monitor and failsafe automation for your draconic reactor
 
