@@ -5,7 +5,7 @@ local fluxgateSide = "right"
 local targetStrength = 50
 local maxTemperature = 8000
 local safeTemperature = 3000
-local lowestFieldPercent = 15
+local lowestFieldPercent = 20
 
 local activateOnCharged = 1
 
@@ -277,7 +277,11 @@ function update()
     -- or set it to our saved setting since we are on manual
     if ri.status == "online" then
       if autoInputGate == 1 then 
-        fluxval = ri.fieldDrainRate / (1 - (targetStrength/100) )
+        local denominator = 1 - (targetStrength / 100)
+        if denominator <= 0 then denominator = 0.1 end -- just in case
+        local fluxval = math.ceil(ri.fieldDrainRate / denominator)
+        -- Clamp to safe min/max
+        fluxval = math.max(10000, math.min(fluxval, 900000))
         print("Target Gate: ".. fluxval)
         inputfluxgate.setSignalLowFlow(fluxval)
       else
